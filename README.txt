@@ -1,24 +1,23 @@
-VISIORA — SITE WEB V4.0
+VISIORA — SITE WEB V5.0
+========================
 
-Contenu prêt à déposer à la racine d’un dépôt GitHub Pages.
+Cette archive contient tous les fichiers prêts à déposer à la racine du dépôt GitHub Pages.
 
-Déploiement GitHub Pages :
-1. Décompressez le fichier.
-2. Déposez tous les fichiers et dossiers à la racine du dépôt GitHub.
-3. Dans GitHub : Settings > Pages.
-4. Source : Deploy from a branch.
-5. Branche : main, dossier /(root).
-6. Enregistrez.
+Nouveautés V5.0
+- Présentation complète des quatre captures d’écran.
+- Captures cliquables et agrandissables dans une fenêtre accessible.
+- Parcours visuel Importer → Traiter → Consulter → Exporter.
+- Section destinée aux organisations qui utilisent des rapports similaires, sans prétendre à des clients existants.
+- Icônes homogènes en SVG.
+- Animations discrètes.
+- FAQ interactive.
+- Pied de page professionnel sur toutes les pages.
+- Navigation active, mobile et accessible.
+- Exportation PDF et Excel clairement présentée.
+- Courriel de soutien : SYLVAIN.ARSENEAULT@GMAIL.COM
 
-Cette version est basée sur la V3.3 validée et ajoute :
-- les quatre captures fournies;
-- la démonstration complète Avant / Après;
-- la démonstration du zoom;
-- les formats WebP avec repli JPEG;
-- un menu mobile;
-- des améliorations d’accessibilité, de performance et de référencement;
-- une page 404 et un manifeste web.
-
-Courriel de soutien publié : SYLVAIN.ARSENEAULT@GMAIL.COM
-
-Mise à jour V4.1 : mention explicite de l’exportation du résultat final en PDF ou Excel.
+Installation GitHub Pages
+1. Décompresser l’archive.
+2. Copier tout le contenu à la racine du dépôt GitHub.
+3. Dans Settings → Pages, choisir « Deploy from a branch ».
+4. Sélectionner la branche principale et le dossier racine.

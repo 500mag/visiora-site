@@ -18,7 +18,7 @@
       <span class="sr-only">Ouvrir le menu</span><span></span><span></span><span></span>
     </button>
     <nav id="navigation-principale" class="nav-links" aria-label="Navigation principale">
-      <a href="index.html">Accueil</a><a href="about.html">À propos</a><a href="faq.html">FAQ</a>
+      <a href="index.html" aria-current="page">Accueil</a><a href="about.html">À propos</a><a href="faq.html">FAQ</a>
       <a href="versions.html">Versions</a><a href="support.html">Soutien</a><a href="privacy.html">Confidentialité</a>
     </nav>
   </div>
@@ -33,18 +33,67 @@
 <section class="trust-strip"><div class="container trust-grid reveal"><div><strong>100 % local</strong><span>Aucun document transmis à un serveur</span></div><div><strong>Confidentiel</strong><span>Vos rapports restent sur votre appareil</span></div><div><strong>Multiplateforme</strong><span>Compatible iPhone, iPad et Mac</span></div></div></section>
 <section class="section"><div class="container mission reveal"><h2>Notre mission</h2><p>Rendre les rapports PDF structurés plus clairs, plus lisibles et plus accessibles, notamment pour les personnes ayant des difficultés visuelles.</p></div></section>
 <section class="section" id="fonctions"><div class="container"><div class="section-head reveal"><span class="kicker">Fonctionnalités</span><h2>Une lecture plus claire</h2><p>Des outils simples pour améliorer la consultation du rapport compatible et produire une nouvelle sortie adaptée à vos besoins.</p></div>
-<div class="cards"><article class="card glass reveal"><div class="card-icon">Aa</div><h3>Affichage personnalisé</h3><p>Ajustement de la taille, de l’épaisseur des caractères et de l’espacement.</p></article><article class="card glass reveal"><div class="card-icon">▦</div><h3>Présentation structurée</h3><p>Les informations du rapport sont réorganisées dans un tableau plus facile à consulter.</p></article><article class="card glass reveal"><div class="card-icon">↗</div><h3>Exportation PDF ou Excel</h3><p>Une fois le rapport traité, exportez le résultat final en fichier PDF ou Excel selon vos besoins.</p></article></div></div></section>
-<section class="section demo-section" id="demonstration"><div class="container"><div class="section-head reveal"><span class="kicker">Démonstration</span><h2>Du rapport original à une lecture structurée</h2><p>Découvrez le parcours complet à partir d’un rapport fictif conçu pour la démonstration.</p></div>
-<article class="showcase showcase-main reveal"><div class="showcase-copy"><span class="step">01</span><h3>Importez votre rapport PDF</h3><p>VISIORA affiche le document et permet d’ajuster la présentation avant de consulter le résultat traité.</p></div><figure class="media-card"><picture><source srcset="assets/images/visiora-interface.webp" type="image/webp"><img src="assets/images/visiora-interface.jpg" alt="Interface VISIORA avec le rapport traité et ses réglages" loading="lazy" width="1920" height="1406"></picture></figure></article>
-<div class="before-after reveal"><article class="comparison-card"><div class="showcase-copy compact"><span class="step">02</span><h3>Avant</h3><p>Un rapport comptable traditionnel, dense et difficile à parcourir rapidement.</p></div><figure class="media-card portrait"><picture><source srcset="assets/images/rapport-original.webp" type="image/webp"><img src="assets/images/rapport-original.jpg" alt="Rapport comptable fictif avant traitement" loading="lazy" width="1400" height="1725"></picture></figure></article>
-<article class="comparison-card"><div class="showcase-copy compact"><span class="step">03</span><h3>Après VISIORA</h3><p>Une présentation claire, structurée et immédiatement plus confortable à consulter.</p><p class="export-note"><strong>Le résultat final peut ensuite être exporté en fichier PDF ou Excel.</strong></p></div><figure class="media-card"><picture><source srcset="assets/images/rapport-traite.webp" type="image/webp"><img src="assets/images/rapport-traite.jpg" alt="Rapport restructuré en pleine page par VISIORA" loading="lazy" width="1920" height="1395"></picture></figure></article></div>
-<article class="showcase zoom-showcase reveal"><div class="showcase-copy"><span class="step">04</span><h3>Zoomez sur chaque détail, sans perte de lisibilité.</h3><p>Le rapport demeure entièrement zoomable après le traitement pour examiner facilement un fournisseur, une facture ou un montant.</p></div><figure class="media-card"><picture><source srcset="assets/images/rapport-zoom.webp" type="image/webp"><img src="assets/images/rapport-zoom.jpg" alt="Rapport VISIORA agrandi à 200 pour cent" loading="lazy" width="1920" height="1403"></picture></figure></article>
+<div class="cards">
+<article class="card glass reveal"><div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 19h14M8 16l4-11 4 11M9.5 12h5"/></svg></div><h3>Affichage personnalisé</h3><p>Ajustement de la taille, de l’épaisseur des caractères et de l’espacement.</p></article>
+<article class="card glass reveal"><div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="14" rx="2"/><path d="M4 10h16M10 5v14"/></svg></div><h3>Présentation structurée</h3><p>Les informations du rapport sont réorganisées dans un tableau plus facile à consulter.</p></article>
+<article class="card glass reveal"><div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5"/><path d="M5 20h14"/></svg></div><h3>Exportation PDF ou Excel</h3><p>Une fois le rapport traité, exportez le résultat final en fichier PDF ou Excel selon vos besoins.</p></article>
+</div></div></section>
+<section class="section workflow-section" aria-labelledby="workflow-title"><div class="container">
+<div class="section-head reveal"><span class="kicker">Fonctionnement</span><h2 id="workflow-title">Un parcours simple, du PDF au résultat final</h2><p>Chaque étape a été pensée pour rester claire et rapide.</p></div>
+<div class="workflow-grid reveal">
+  <article><span class="workflow-number">1</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5"/><path d="M5 20h14"/></svg><h3>Importer</h3><p>Sélectionnez la liste de comptes à payer compatible.</p></article>
+  <div class="workflow-arrow" aria-hidden="true">→</div>
+  <article><span class="workflow-number">2</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m16 16 4 4M11 8v6M8 11h6"/></svg><h3>Traiter</h3><p>VISIORA reconnaît et réorganise les données localement.</p></article>
+  <div class="workflow-arrow" aria-hidden="true">→</div>
+  <article><span class="workflow-number">3</span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 9h8M8 13h8M8 17h5"/></svg><h3>Consulter</h3><p>Examinez le rapport structuré et zoomez sur chaque détail.</p></article>
+  <div class="workflow-arrow" aria-hidden="true">→</div>
+  <article><span class="workflow-number">4</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5"/><path d="M5 20h14"/></svg><h3>Exporter</h3><p>Produisez le résultat final en PDF ou en Excel.</p></article>
+</div></div></section><section class="section demo-section" id="demonstration"><div class="container"><div class="section-head reveal"><span class="kicker">Démonstration</span><h2>Du rapport original à une lecture structurée</h2><p>Découvrez le parcours complet à partir d’un rapport fictif conçu pour la démonstration.</p></div>
+<article class="showcase showcase-main reveal"><div class="showcase-copy"><span class="step">01</span><h3>Importez votre rapport PDF</h3><p>VISIORA affiche le document et permet d’ajuster la présentation avant de consulter le résultat traité.</p></div><figure class="media-card media-zoomable" data-lightbox><picture><source srcset="assets/images/visiora-interface.webp" type="image/webp"><img src="assets/images/visiora-interface.jpg" alt="Interface VISIORA avec le rapport traité et ses réglages" loading="lazy" width="1920" height="1406"></picture><figcaption class="zoom-hint"><span aria-hidden="true">＋</span> Cliquer pour agrandir</figcaption></figure></article>
+<div class="before-after reveal"><article class="comparison-card"><div class="showcase-copy compact"><span class="step">02</span><h3>Avant</h3><p>Un rapport comptable traditionnel, dense et difficile à parcourir rapidement.</p></div><figure class="media-card portrait media-zoomable" data-lightbox><picture><source srcset="assets/images/rapport-original.webp" type="image/webp"><img src="assets/images/rapport-original.jpg" alt="Rapport comptable fictif avant traitement" loading="lazy" width="1400" height="1725"></picture><figcaption class="zoom-hint"><span aria-hidden="true">＋</span> Cliquer pour agrandir</figcaption></figure></article>
+<article class="comparison-card"><div class="showcase-copy compact"><span class="step">03</span><h3>Après VISIORA</h3><p>Une présentation claire, structurée et immédiatement plus confortable à consulter.</p><p class="export-note"><strong>Le résultat final peut ensuite être exporté en fichier PDF ou Excel.</strong></p></div><figure class="media-card media-zoomable" data-lightbox><picture><source srcset="assets/images/rapport-traite.webp" type="image/webp"><img src="assets/images/rapport-traite.jpg" alt="Rapport restructuré en pleine page par VISIORA" loading="lazy" width="1920" height="1395"></picture><figcaption class="zoom-hint"><span aria-hidden="true">＋</span> Cliquer pour agrandir</figcaption></figure></article></div>
+<article class="showcase zoom-showcase reveal"><div class="showcase-copy"><span class="step">04</span><h3>Zoomez sur chaque détail, sans perte de lisibilité.</h3><p>Le rapport demeure entièrement zoomable après le traitement pour examiner facilement un fournisseur, une facture ou un montant.</p></div><figure class="media-card media-zoomable" data-lightbox><picture><source srcset="assets/images/rapport-zoom.webp" type="image/webp"><img src="assets/images/rapport-zoom.jpg" alt="Rapport VISIORA agrandi à 200 pour cent" loading="lazy" width="1920" height="1403"></picture><figcaption class="zoom-hint"><span aria-hidden="true">＋</span> Cliquer pour agrandir</figcaption></figure></article>
 </div></section>
 <section class="section" id="compatibilite"><div class="container"><div class="section-head reveal"><span class="kicker">Compatibilité</span><h2>Rapports pris en charge</h2><p>VISIORA est actuellement spécialisée pour un modèle précis. D’autres formats pourront être ajoutés progressivement.</p></div><div class="compat-grid"><article class="card glass reveal"><span class="status ok">✓ Compatible</span><h3>Liste des comptes à payer</h3><p>Rapport produit par la Municipalité de Saint-Boniface.</p></article><article class="card glass reveal"><span class="status soon">À venir</span><h3>Nouveaux modèles</h3><p>D’autres rapports PDF structurés pourront être ajoutés dans de prochaines versions.</p></article></div></div></section>
-<section class="section cta-section"><div class="container cta glass reveal"><div><span class="kicker">VISIORA</span><h2>Une nouvelle façon de consulter vos rapports.</h2><p>Confidentielle, locale et conçue pour les appareils Apple.</p></div><span class="button primary disabled">Bientôt sur l’App Store</span></div></section>
-</main><footer>
-  <div class="container footer-row">
-    <div>Version actuelle : 1.0 · Créé et développé par Sylvain Arseneault</div>
-    <div class="footer-links"><a href="support.html">Soutien</a><a href="privacy.html">Confidentialité</a></div>
+<section class="section audience-section"><div class="container">
+<div class="section-head reveal"><span class="kicker">Pensé pour le terrain</span><h2>Pour les organisations qui consultent des rapports similaires</h2><p>VISIORA s’adresse aux équipes qui doivent lire, vérifier et présenter des rapports comptables structurés.</p></div>
+<div class="audience-grid">
+  <article class="audience-card reveal"><span aria-hidden="true">🏛️</span><h3>Municipalités</h3><p>Pour faciliter la consultation des listes de comptes à payer et soutenir la prise de décision.</p></article>
+  <article class="audience-card reveal"><span aria-hidden="true">📊</span><h3>Directions financières</h3><p>Pour repérer rapidement les fournisseurs, factures, montants et descriptions.</p></article>
+  <article class="audience-card reveal"><span aria-hidden="true">👁️</span><h3>Utilisateurs ayant des besoins visuels</h3><p>Pour ajuster la présentation et consulter le document dans un format plus confortable.</p></article>
+</div></div></section><section class="section cta-section"><div class="container cta glass reveal"><div><span class="kicker">VISIORA</span><h2>Une nouvelle façon de consulter vos rapports.</h2><p>Confidentielle, locale et conçue pour les appareils Apple.</p></div><span class="button primary disabled">Bientôt sur l’App Store</span></div></section>
+</main><footer class="site-footer">
+  <div class="container footer-main">
+    <div class="footer-brand-block">
+      <a class="brand" href="index.html" aria-label="Accueil VISIORA">
+        <img src="assets/images/visiora-icon.jpg" alt="" width="46" height="46">
+        <span>VISIORA</span>
+      </a>
+      <p>Voyez vos documents autrement.</p>
+      <p class="footer-meta">Application québécoise conçue pour rendre les rapports PDF structurés plus clairs et plus accessibles.</p>
+    </div>
+    <div class="footer-column">
+      <h2>Découvrir</h2>
+      <a href="index.html#demonstration">Démonstration</a>
+      <a href="index.html#fonctions">Fonctionnalités</a>
+      <a href="about.html">À propos</a>
+      <a href="versions.html">Versions</a>
+    </div>
+    <div class="footer-column">
+      <h2>Assistance</h2>
+      <a href="faq.html">FAQ</a>
+      <a href="support.html">Soutien</a>
+      <a href="privacy.html">Confidentialité</a>
+      <a href="mailto:sylvain.arseneault@gmail.com">Nous écrire</a>
+    </div>
   </div>
-</footer></body></html>
+  <div class="container footer-bottom">
+    <span>Version actuelle : 1.0</span>
+    <span>Créé et développé par Sylvain Arseneault</span>
+    <span>© 2026 VISIORA</span>
+  </div>
+</footer><div class="lightbox" role="dialog" aria-modal="true" aria-label="Agrandissement de la capture" hidden>
+  <button class="lightbox-close" type="button" aria-label="Fermer l’image agrandie">×</button>
+  <img src="" alt="">
+  <p class="lightbox-caption"></p>
+</div></body></html>
