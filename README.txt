@@ -19,4 +19,6 @@ Cette version est basée sur la V3.3 validée et ajoute :
 - des améliorations d’accessibilité, de performance et de référencement;
 - une page 404 et un manifeste web.
 
-Remarque : les coordonnées de soutien devront être ajoutées dans support.html au lancement officiel.
+Courriel de soutien publié : SYLVAIN.ARSENEAULT@GMAIL.COM
+
+Mise à jour V4.1 : mention explicite de l’exportation du résultat final en PDF ou Excel.
