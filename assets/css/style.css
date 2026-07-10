@@ -335,3 +335,34 @@ footer{
   .prose{padding:26px}
   .footer-row{flex-direction:column;align-items:flex-start}
 }
+
+
+/* Correction ciblée uniquement pour les grands écrans Mac */
+@media (min-width: 1400px) {
+  .hero-grid {
+    grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr);
+    column-gap: 72px;
+  }
+
+  .hero-content {
+    transform: translateX(22px);
+    padding-left: 58px;
+    padding-right: 42px;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(2.9rem, 4.6vw, 5.15rem);
+    max-width: 10ch;
+  }
+}
+
+/* Très grands écrans */
+@media (min-width: 1750px) {
+  .hero-grid {
+    column-gap: 92px;
+  }
+
+  .hero-content {
+    transform: translateX(30px);
+  }
+}
