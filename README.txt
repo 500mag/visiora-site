@@ -1,0 +1,1 @@
+Déposez tous les fichiers à la racine de votre dépôt GitHub Pages. Dans support.html, remplacez VOTRE_COURRIEL_ICI par votre adresse de soutien.
