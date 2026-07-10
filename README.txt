@@ -1,1 +1,1 @@
-Déposez tous les fichiers à la racine de votre dépôt GitHub Pages. Dans support.html, remplacez VOTRE_COURRIEL_ICI par votre adresse de soutien.
+Téléversez tous les fichiers et le dossier images à la racine du dépôt GitHub. Si VOTRE_COURRIEL_ICI apparaît encore dans support.html, remplacez-le avant le commit.
