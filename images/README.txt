@@ -1,0 +1,1 @@
+Place ici ton logo splash et ton icône actuels en conservant les noms visiora-splash.jpg et visiora-icon.jpg
