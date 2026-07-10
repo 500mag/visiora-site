@@ -1,7 +1,22 @@
-1. Remplace VOTRE_COURRIEL_ICI dans support.html.
-2. Ajoute tes captures iPad dans assets/images avec les noms ipad-shot-1.jpg, ipad-shot-2.jpg et ipad-shot-3.jpg.
-3. Téléverse tous les fichiers à la racine de ton dépôt GitHub Pages.
+VISIORA — SITE WEB V4.0
 
-Version 3.1 : image d'accueil redimensionnée et cadrage corrigé pour éviter le chevauchement visuel.
+Contenu prêt à déposer à la racine d’un dépôt GitHub Pages.
 
-Version 3.3 : correction appliquée uniquement aux écrans Mac larges (à partir de 1400 px). La mise en page iPad et iPhone reste inchangée.
+Déploiement GitHub Pages :
+1. Décompressez le fichier.
+2. Déposez tous les fichiers et dossiers à la racine du dépôt GitHub.
+3. Dans GitHub : Settings > Pages.
+4. Source : Deploy from a branch.
+5. Branche : main, dossier /(root).
+6. Enregistrez.
+
+Cette version est basée sur la V3.3 validée et ajoute :
+- les quatre captures fournies;
+- la démonstration complète Avant / Après;
+- la démonstration du zoom;
+- les formats WebP avec repli JPEG;
+- un menu mobile;
+- des améliorations d’accessibilité, de performance et de référencement;
+- une page 404 et un manifeste web.
+
+Remarque : les coordonnées de soutien devront être ajoutées dans support.html au lancement officiel.
